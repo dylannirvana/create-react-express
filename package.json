@@ -6,7 +6,7 @@
   "scripts": {
     "server": "node server.js",
     "client": "cd client && npm run start",
-    "start": "./node_modules/.bin/concurrently \"./node_modules/.bin/nodemon\" \"npm run client\"",
+    "start": "concurrently \"./node_modules/.bin/nodemon\" \"npm run client\"",
     "build": "cd client && npm run build",
     "deploy": "yarn build && git add . && git commit -m \"Building for production\" && git push heroku master",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,13 @@
   },
   "dependencies": {
     "express": "^4.15.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylannirvana/mern-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dylannirvana/mern-demo/issues"
+  },
+  "homepage": "https://github.com/dylannirvana/mern-demo#readme"
 }
