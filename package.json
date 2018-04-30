@@ -1,6 +1,6 @@
 {
   "name": "mern-demo",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Mern Demo",
   "main": "server.js",
   "scripts": {
