@@ -1,6 +1,6 @@
 {
-  "name": "mern",
-  "version": "0.1.0",
+  "name": "mern-demo",
+  "version": "0.0.5",
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
