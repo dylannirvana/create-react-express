@@ -1,6 +1,6 @@
 {
   "name": "mern-demo",
-  "version": "0.0.10",
+  "version": "0.0.1",
   "proxy": "http://localhost:3001/",
   "dependencies": {
     "react": "^16.0.0",
